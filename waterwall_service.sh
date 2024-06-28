@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "185.199.110.133 objects.githubusercontent.com" | sudo tee -a /etc/hosts > /dev/null
 dic_path="$HOME/WaterWall/"
 mkdir -p "$dic_path"
 arch=$(uname -m)
